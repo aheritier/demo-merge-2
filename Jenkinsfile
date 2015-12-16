@@ -7,8 +7,8 @@ node {
   echo "a: ${a}"
   echo "b: ${b}"
 
-  if ( a.toInteger() < b.toInteger() ) {
-    error 'Wrong'
+  if ( a.toInteger() >= b.toInteger() ) {
+    error 'A is greater than B'
   }
 }
 

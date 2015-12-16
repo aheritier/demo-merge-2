@@ -1,4 +1,6 @@
 node {
+  checkout scm
+
   def a = readFile 'A.txt'
   def b = readFile 'B.txt'
 
